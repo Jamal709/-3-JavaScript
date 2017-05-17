@@ -1,6 +1,6 @@
 <meta charset='utf-8'>
 <script>
-
+	var  a = prompt("¬ведите ваше им€");
 
 	var roubles = parseInt(prompt('¬ведите сумму в рубл€х:'));
 	var oneEuro = 75;
