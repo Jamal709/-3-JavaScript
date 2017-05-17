@@ -1,0 +1,17 @@
+<meta charset='utf-8'>
+<script>
+
+
+	var roubles = parseInt(prompt('¬ведите сумму в рубл€х:'));
+	var oneEuro = 75;
+	var oneDollar = 66;
+
+	var euros = roubles/oneEuro;
+	var dollars = roubles/oneDollar;
+
+	alert(
+			roubles + ' рублей = ' + euros.toFixed(2) + ' евро\n' +
+			roubles + ' рублей = ' + dollars.toFixed(2) + ' долларов'
+	);
+
+</script>
