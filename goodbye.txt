@@ -1,3 +1,0 @@
-<script>
-alert("Пока мир");
-</script> k
