@@ -1,0 +1,170 @@
+<meta charset="utf-8">
+
+<script>
+    
+    //Задание 2.
+        //Создать следующие переменные
+    
+    //Переменная которая несет имя сайта 
+    var  Sitename = ;
+    
+    //Массив для меню сайта 
+    var Sitemenu  = [];
+    
+    // Переменная для размещения количетсво статей на одной странице
+    var Numofarticles  =  ;
+    
+    // Переменная для заголовков статей 
+    var Headofarticles = ;
+    
+    //Переменная для обычных  статей 
+     var article = ;
+     
+     //Переменная для важных статей 
+     var importantarticles = ;
+     
+     //Переменная для юмористических статей
+     var  humorarticles = ;
+     
+    //Переменная для блока "А  если о серьё зном "
+     
+     var articleofgravity = ;
+     
+     // Переменая говорящая будет ли картинка у статьи 
+     var Willthepicture = true;
+    
+    //Переменная для цены любого товара 
+    var productPrice = ;
+    
+</script>
+
+<script>
+ 	//Задание 3
+        //Найти ошибки в коде и исправить их 
+    
+    
+    
+	 var tusad = 'This is Sparta!!!';  //В конце каждой строчки должна быть точка с запятой 
+
+    result = true;  // в ковычках это получается строка, а  надо boolean без ковычек
+                 
+    var percententage = 20; // не правильный символ %
+    
+    var header = "Заголовок новой статьи" // Ошибка в литерале "" ''
+    
+    var zipcode = 983456 ; // Пробел не должен быть в имени переменной 
+    
+    var a = prompt('Введите хоть что-нибудь');
+    
+     alert('Вы точно все ввели?');//Аргументы должны быть в скобках
+    
+    var var1 = 25;
+    
+    var var2 = 'Орехов';
+    
+    alert("Вы нашли " + var1  +  var2); // Строка должна быть в ковычках и склеиваться конкотенацией +
+    
+	var var3 = 45;
+    
+	var var4 = 20;
+    
+	console.log(parseInt(var3)+var4);  //Нужно перевести в целочисленное значение через parseInt
+    //Результать получился 65 !
+ </script>
+ 
+ <script>
+     //Задание 4.
+        //Определите типы следующих переменных
+     var art = "25 / 5"; // typeof (art) - string 
+     
+     var same = null; // typeof (same) - object 
+     
+     var scoop; //undefined 
+     
+     var flag = 0; // typeof (flag) - number 
+     
+     var plat = true; // typeof (plat) - boolean
+     
+     var devid = 34 / 7; // typeof (devid) - number
+     
+     var person = {lastname: Ivan}  //object
+     
+     var fruits = ['apple']; //typeof (fruits) - object
+     
+     var iceCream = function() { alert('Я люблю мороженое');  } // function 
+
+</script>
+ 
+ 
+<script>
+    //Задание 5.
+        //Определите длину этих  строк 
+    var a =  "JavaScript is a high-level, dynamic, untyped, and interpreted programming language".length // 82
+    var b = "Netscape Communications realized that the Web needed to become more dynamic".length //75
+    var c = "JavaScript was realized in ten days".length //35
+
+
+</script>
+
+
+
+ 
+<script>
+    //Задание 6
+      // Выведите следующие строки в верхнем регистре. Результат присвойте переменной.
+
+   var a = "console.log".toUpperCase () //"CONSOLE.LOG>"
+    var b ="hello world!".toUpperCase () //"HELOO WORLD!"
+    var c = "i need more code on javascript".toUpperCase () //"I NEED MORE CODE ON JAVASCRIPT"
+</script>
+
+ 
+<script>
+    //Задание 7.
+      // Переменные из предыдущего задания преобразуйте в нижний регистр.
+    a = a.toLowerCase();
+    b = b.toLowerCase();
+    c = c.toLowerCase();
+    
+</script>
+
+<script>
+    //Задание из Методички 1.
+        /*Задать температуру в градусах по Цельсию. Вывести в alert соответствующую температуру в
+градусах по Фаренгейту. Подсказка: расчёт идёт по формуле: Tf = (9 / 5) * Tc + 32, где Tf –
+температура по Фаренгейту, Tc – температура по Цельсию*/
+    
+    var tc = prompt("Введите ваше число ")   
+    var tf = (9/5) * tc + 32;
+    alert("Температура по шкале Фаренгейта: " + tf )   
+
+
+
+
+
+</script>
+
+<script> 
+    //Задание из Методички 2.
+    /*Объявить две переменные: admin и name. Записать в name строку "Василий"; Скопировать
+значение из name в admin. Вывести admin (должно вывести «Василий»).
+*/
+    var = "admin";
+    var = "name";
+    
+    name = 'Василий';
+    admin = name
+    
+    alert(admin);
+    
+
+</script>
+
+<script> 
+    //Задание из Методички 3.
+    /* Чему будет равно JS-выражение 1000 + "108";*/
+
+  alert(1000+"108")// Они склеиваются 1000108
+    
+
+</script>
