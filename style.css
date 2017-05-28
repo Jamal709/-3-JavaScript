@@ -1,0 +1,207 @@
+@import "http://webfonts.ru/import/roboto.css";
+
+.calculator   {
+    
+    width: 410px;
+    height: 400px;
+    border:1px solid silver;
+background: #2c2c2c;
+border-radius: 5px;
+box-shadow: 0px 5px  10px 2px #333333;
+}
+.calculator > p{
+ position: absolute;
+font-size:20px;
+margin:10px 20px;
+color:#ffffff;
+font-family: 'roboto';
+letter-spacing: 1px;
+    
+}
+.calculator > p >b {
+color:#ffd000;    
+    
+}
+.calculator > h2 {
+margin-left:20px;    
+color:#edde2a;
+font-family: 'roboto';
+    
+}
+.calculator > input {
+padding:5px 5px;
+font-size: 15px;
+margin-left:20px;
+width:160px;
+outline: none;
+border:none;
+    background: #202223;
+border:1px solid #fdd000;
+color:#f5f5f5;
+}
+.calculator > button:active {
+ transform: scale(0.9);
+    
+}
+.calculator > button:hover {
+   background:  rgba(56,56,56,0.9);
+    
+    
+}
+.calculator > button {
+margin-top: 50px;    
+width:100px;
+height: 80px;
+outline: none;
+border:none;
+cursor: pointer;
+background: #151515;
+color:#edde2a;
+margin-left:20px;
+    
+font-size:40px;
+}
+
+
+.generator_password {
+ width: 500px;
+height: 300px;
+background-color: #DBDBDB;
+margin:70px 10px;
+
+}
+.generator_password > .block_generator {
+margin:10px 50px;
+position: absolute;
+
+}
+.generator_password > .block_generator> input {
+padding:5px 5px;
+font-family: 'roboto';
+font-size: 15px;
+outline: none;
+border:none;
+border:1px solid green;
+}
+.generator_password > .block_generator > button {
+
+background-color: green;
+color:#ffffff;
+width:130px;
+height: 40px;
+font-size: 17px;
+cursor: pointer;
+margin-left: 20px;
+outline: none;
+border:none;
+
+}
+.generator_password > .block_generator > h3 {
+color:#6E6E6E;
+font-size: 22px;
+
+}
+.generator_password > .block_generator > button:hover {
+background-color: #004100;
+
+
+}
+.generator_password >  .block_generator > button:active  {
+transform: scale(0.99);
+
+}
+.generator_password > .block_generator > p  {
+font-size: 20px;
+font-family:'roboto';
+
+}
+
+.guess {
+width:400px;
+height: 300px;
+margin:0px 0px;
+position: absolute;
+background-color: #333333;
+
+}
+.guess > .play_puzzle {
+width:400px;
+height: 100px;
+margin:50px 30px;
+
+}
+.guess > .play_puzzle> p {
+font-size: 16px;
+font-family: 'roboto';
+color:#ffffff;
+}
+.guess > .play_puzzle> h2 {
+color:#4895FF;
+font-family: 'roboto';
+
+}
+.guess > .play_puzzle> a  {
+display: inline-block;
+padding:10px 15px;
+background-color: #1814A6;
+text-decoration: none;
+color:#ffffff;
+font-size: 18px;
+font-family: 'roboto';
+
+}
+.guess > .play_puzzle> a:hover  {
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+transform: scale(1.01);
+}
+
+.block_number {
+margin:350px 20px; 
+position: absolute;
+width:460px;
+height: 460px;
+background:rgba(58,153,247,0.5);
+border-radius: 50%;
+
+}
+.block_number  > h2 {
+font-family: 'roboto';
+font-size: 26px;
+margin: 62px 100px;
+color:#374859;
+position: absolute;
+}
+.block_number >.number  {
+width:337px;
+height: 100px;
+margin:156px auto;
+
+}
+.block_number >.number > button {
+background-color: rgb(107,139,172);
+outline: none;
+border:none;
+color:#ffffff;
+padding:7px 8px;
+font-size: 17px;
+margin-left: 10px;
+cursor: pointer;
+
+}
+.block_number >.number > button:active {
+transform: scale(0.99);
+
+}
+.block_number >.number > input {
+padding:5px 10px;
+font-family: 'roboto';
+font-size: 16px;
+outline: none;
+border:none;
+
+}
+.number > p  {
+font-family: 'roboto';
+font-size: 18px;
+
+}

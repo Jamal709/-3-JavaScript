@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+
+</head>
+<body>
+<div class="calculator">
+      
+      <h2>Калькулятор </h2>
+   <input type="text" placeholder="Введите первое число" id="field_1"  value="0">
+   <input type="text" placeholder="Введите второе число" id="field_2" value="0">
+    <p > Ответ: <b id="result"> </b></p>
+   <br>
+   <button onclick="addition()">+</button>
+   <button onclick="calc('diff')">-</button>
+    <button onclick="calc('div')">*</button>
+    <button onclick="calc('mult')">/</button>
+    <button onclick="Result()">=</button>
+    <button onclick="calc('clear')">C</button>
+</div>
+
+
+<div class="generator_password ">
+  <div class="block_generator">
+  <h3>Генератор пароля</h3>
+       
+       <p>Количесвто символов</p>
+        <input type="number" placeholder="Количество символов" name="numChars" id="numChars" value="4">
+        <button onclick="genPass()">Сгенерировать</button>
+        <p>Сгенерированый пароль </p>
+        <input type="text" name="pass" id="pass">
+
+</div>
+</div>
+    <div class="guess">
+      <div class="play_puzzle">
+      <h2>Угадай число </h2>
+        <p>Играет 2 игрока. У вас будет неограниченное количество попыток, чтобы угадать загадку.</p>
+        <a href="#" onclick="playGuess2();"> Начать игру</a>
+        </div>
+
+    </div>
+
+    <div class="block_number"> 
+    <h2>Натуральные числа </h2>
+        <div class="number">
+            <input type="number" name="num" placeholder="Введите число ">
+              <button onclick="naturalNumber()">Проверить</button>
+              <p > Ответ: <b name="result_2"> <b>  </p>
+        </div>
+
+    </div>
+
+
+<script src="calculator.js"></script>
+</body>
+</html>
